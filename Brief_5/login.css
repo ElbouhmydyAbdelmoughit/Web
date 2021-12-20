@@ -2,74 +2,122 @@ html body{
     background-color: black;
     margin: 7%;
     margin-left: 13%;
+    font-family: Arial;
 }
 .Body_1{
-    width: 85%;
-    background-image: linear-gradient(#636161, #1b1b1b);
+    width: 67%;
+    background-color: #2E2E2E;
     border-radius: 10px;
-    padding-top: 0.5%;
+    padding: 5% 0% 5% 10%;
 }
-.Body_1 img{
-    height: 100%;
-    width: 50%;
-    margin-top: 3%;
-}
-.Body_1 h1{
-    color: white;
-    margin-left: 15%;
-    margin-bottom: 0px;
-    letter-spacing: 10px;
-}
-.Body_2{
-   width: 21%;
-   height: 80%; 
-   background-color: #4E4E4E;
-   border-radius: 5px;
-   position: absolute;
-   top: 7%;
-   left: 55%;
-   box-shadow: 1px 1px 15px rgb(0, 0, 0);
-
-    
-}
-.Body_2 button{
-    border-radius: 100%;
-    size: 10%;
-    background-color: black;
+.Body_1 .first_button{
+    padding: 0.8% 11% 0.8% 10.5%;
+    font-weight: bold;
+    border-radius: 190px;
     border: none;
-    width: 65px;
-    height: 65px;
-    position: absolute;
-    top: 15%;
-    left: 38%;
 }
-.Body_2 h2{
-    color: white;
-    position: absolute;
-    left: 37%;
-    letter-spacing: 2px;
+.Body_1 .first_button:hover{
+    box-shadow: 3px 4px 0px #FFC81A;
 }
-.input{
-    margin-top: 68%;
-    margin-left: 18%;
+.btn img{
+    width: 20px;
+    height: 20px;
+    margin-top: 0% !important;
+    margin-bottom: 1% !important;
+    margin-left: 5px;
 }
-.input input{
-    margin-bottom: 8%;
+.btn p{
+    margin-left: 12px !important;
+    font-size: 12px !important;
+    margin-top: 4px;
+    color: black !important;
+    margin-bottom: 0%;
 }
-.input button{
-    background-color: rgb(0, 0, 0);
-    margin-top: 125%;
-    border-radius: 3px;
-    width: 62%;
-    height: 6%;
-    position: absolute;
-    left: 18%;
+.Body_1 p a{
+    text-decoration: none;
+    color: #0B379B;
+    font-size: 12.5px;
+}
+.btn .button_2{
+    width: 28%;
+    height: 32px;
+    padding-left: 1%;
+}
+.btn .button_2:hover{
+     box-shadow: 3px 4px 0px #0B379B;
+}
+.btn button:last-child:hover{
+    box-shadow: 3px 4px 0px #FF4B33;
+
+}
+.btn button{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 3%;
+    border-radius: 190px;
+    border: none;
+}
+.btn button:last-child{
+    width: 28%;
+    height: 30px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.Body_1 input,button{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.Body_1 p{
     color: #ffffff;
-   
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: bold;
 }
-.input button:hover{
-    box-shadow: 2px 2px 0px #FF4B33;
+.Body_1 #last_paragraph{
+    margin-left: 22%;
+    margin-top: 3%;
+    margin-bottom: 0%;
 }
-.input input:hover{
-    border-color: #FF4B33;
+.Body_1 input{
+    padding: 1% 6% 1% 2%;
+    font-size: 85%;
+    border-radius: 3px;
+    border: none;
 }
+.Icon {
+    margin-right: 10%;
+    background: url("Icone_Email.svg") no-repeat right;
+    background-size: 18px;
+    background-position-x: 170px;
+    color: #000000;
+    background-color: white;
+  }
+  .icon {
+    margin-right: 10%;
+    background: url("Icone_lock.svg") no-repeat right;
+    background-size: 15px;
+    background-position-x: 170px;
+    color: #000000;
+    background-color: white;
+  }
+  .Body_2{
+    width: 22%;
+    height: 85%; 
+    background-color: #ffffff;
+    border-radius: 30px;
+    position: absolute;
+    top: 7%;
+    left: 58%;
+ }
+ .Body_2 h3{
+    letter-spacing: 5px;
+    margin-left: 60px;
+ }
+ .Body_2 img{
+    width: 180%;
+    height: 60%;
+    position: absolute;
+    right: -40px;
+    top: 18%;
+ }
